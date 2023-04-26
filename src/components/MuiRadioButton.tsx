@@ -12,8 +12,6 @@ import { useState } from 'react';
 export const MuiRadioButton = () => {
   const [value, setValue] = useState<string>('');
 
-  console.log({ value });
-
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setValue(event.target.value);
   };
