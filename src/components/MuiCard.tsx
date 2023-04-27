@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 export const MuiCard = () => {
   return (
-    <Box width='300px'>
+    <Box width='300px' mt={2}>
       <Card>
         <CardMedia
           component='img'
