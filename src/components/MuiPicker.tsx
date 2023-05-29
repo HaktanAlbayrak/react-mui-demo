@@ -6,11 +6,7 @@ export const MuiPicker = () => {
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [selectedTime, setSelectedTime] = useState<Date | null>(null);
   const [selectedDateTime, setSelectedDateTime] = useState<Date | null>(null);
-  console.log({
-    selectedDate,
-    selectedTime: selectedTime && selectedTime.toLocaleTimeString(),
-    selectedDateTime,
-  });
+
   return (
     <Box>
       <Stack spacing={4} sx={{ width: '250px' }} mt={8} mb={20}>
