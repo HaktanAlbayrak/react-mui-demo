@@ -6,9 +6,7 @@ import {
   TimelineSeparator,
   TimelineDot,
 } from '@mui/lab';
-import { Typography, Paper } from '@mui/material';
 import { TimelineContent } from '@mui/lab';
-import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 
 export const MuiTimeline = () => {
   return (

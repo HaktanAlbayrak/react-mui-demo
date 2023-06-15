@@ -17,7 +17,7 @@ export const MuiDialog = () => {
         open={open}
         onClose={() => setOpen(false)}
         aria-labelledby='dialog-title'
-        aria-aria-describedby='dialog-description'
+        aria-describedby='dialog-description'
       >
         <DialogTitle id='dialog-title'>Submit the test?</DialogTitle>
         <DialogContent id='dialog-description'>
